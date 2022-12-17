@@ -31,11 +31,13 @@ img {
 .no-scroll {
   overflow-y: hidden;
 }
+
 .container-wide {
   margin: 0 auto;
   max-width: 1790px;
   padding: 0 15px;
 }
+
 .container {
   max-width: 1492px;
   margin-left: auto;
@@ -43,12 +45,15 @@ img {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .row {
   display: flex;
 }
+
 .space-between {
   justify-content: space-between;
 }
+
 .aling-center {
   align-items: center;
 }
@@ -59,28 +64,34 @@ img {
   padding-top: 64px;
   margin-bottom: 200px;
 }
+
 .nav-wrapper {
   margin-bottom: 198px;
 }
+
 .logo {
   font-family: "Playfair Display", serif;
   font-size: 32px;
   font-weight: 700;
 }
+
 .nav {
   font-family: "Gilroy";
   font-weight: 700;
   font-size: 18px;
 }
+
 .nav ul {
   display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+
 .nav li + li {
   margin-left: 40px;
 }
+
 .nav a {
   position: relative;
   text-decoration: none;
@@ -88,6 +99,7 @@ img {
   transition: color 0.2s ease-in;
   padding-bottom: 5px;
 }
+
 .nav a::after {
   position: absolute;
   left: 0;
@@ -100,13 +112,16 @@ img {
   opacity: 0;
   transition: all 0.2s ease-in;
 }
+
 .nav a:hover {
   color: #fbd784;
 }
+
 .nav a:hover::after {
   bottom: 0;
   opacity: 1;
 }
+
 .account {
   padding-left: 30px;
   position: relative;
@@ -116,9 +131,11 @@ img {
   color: #ffffff;
   transition: color 0.2s ease-in;
 }
+
 .account:hover {
   color: #fbd784;
 }
+
 .account::before {
   display: block;
   content: "";
@@ -130,6 +147,7 @@ img {
   height: 21px;
   background-image: url("./../img/icons/cart.svg");
 }
+
 .nav-button {
   position: relative;
   z-index: 9;
@@ -140,10 +158,12 @@ img {
   cursor: pointer;
   background: none;
 }
+
 .nav-button:focus,
 .nav-button:active {
   outline: none;
 }
+
 .nav-button-icon {
   position: relative;
   display: block;
@@ -152,6 +172,7 @@ img {
   border: none;
   background-color: #ffffff;
 }
+
 .nav-button-icon::before {
   position: absolute;
   left: 0;
@@ -162,6 +183,7 @@ img {
   height: 5px;
   background-color: #ffffff;
 }
+
 .nav-button-icon::after {
   position: absolute;
   left: 0;
@@ -172,17 +194,21 @@ img {
   height: 5px;
   background-color: #ffffff;
 }
+
 .nav-button-close .nav-button-icon {
   background-color: transparent;
 }
+
 .nav-button-close .nav-button-icon::before {
   transform: rotate(45deg);
   top: 0;
 }
+
 .nav-button-close .nav-button-icon::after {
   transform: rotate(-45deg);
   top: 0;
 }
+
 .mobile-nav {
   position: fixed;
   z-index: 8;
@@ -197,17 +223,21 @@ img {
   padding: 70px 70px 50px 30px;
   background-color: rgba(11, 29, 38, 0.8);
 }
+
 .mobile-nav .nav,
 .mobile-nav .account {
   display: block;
 }
+
 .mobile-nav .nav ul {
   flex-direction: column;
 }
+
 .mobile-nav .nav ul li {
   margin: 0;
   margin-bottom: 20px;
 }
+
 .hero {
   display: block;
   margin-left: auto;
@@ -218,9 +248,11 @@ img {
   text-decoration: none;
   transition: transform 0.4s cubic-bezier(0.575, 0.005, 0.245, 1.645);
 }
+
 .hero:hover {
   transform: translateY(-5%);
 }
+
 .hero-category {
   margin-bottom: 32px;
   position: relative;
@@ -232,6 +264,7 @@ img {
   text-transform: uppercase;
   color: #fbd784;
 }
+
 .hero-category::before {
   position: absolute;
   left: 0;
@@ -243,6 +276,7 @@ img {
   height: 2px;
   background-color: #fbd784;
 }
+
 .hero-title {
   margin-bottom: 32px;
   font-family: "Playfair Display", serif;
@@ -253,6 +287,7 @@ img {
   color: #ffffff;
   text-shadow: 0px 0px 15px#0b1d26;
 }
+
 .hero-scroll {
   display: inline-block;
   position: relative;
@@ -263,6 +298,7 @@ img {
   line-height: 1.222;
   color: #ffffff;
 }
+
 .hero-scroll::after {
   display: block;
   content: "";
@@ -286,14 +322,17 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
 .article:nth-child(even) {
   flex-direction: row-reverse;
 }
+
 .article-text {
   position: relative;
   padding-left: 150px;
   max-width: 782px;
 }
+
 .article-text::before {
   position: absolute;
   left: 0;
@@ -312,6 +351,7 @@ img {
   color: #ffffff;
   opacity: 0.1;
 }
+
 .article-subtitle {
   margin-bottom: 32px;
   position: relative;
@@ -323,6 +363,7 @@ img {
   text-transform: uppercase;
   color: #fbd784;
 }
+
 .article-subtitle::before {
   position: absolute;
   left: 0;
@@ -334,6 +375,7 @@ img {
   height: 2px;
   background-color: #fbd784;
 }
+
 .article-title {
   max-width: 555px;
   font-family: "Playfair Display", serif;
@@ -343,6 +385,7 @@ img {
   line-height: 1.2;
   color: #ffffff;
 }
+
 .article-title p {
   margin-bottom: 27px;
   font-style: normal;
@@ -351,6 +394,7 @@ img {
   line-height: 1.78;
   color: #ffffff;
 }
+
 .article-reade-more {
   display: inline-block;
   position: relative;
@@ -362,6 +406,7 @@ img {
   color: #fbd784;
   text-decoration: none;
 }
+
 .article-reade-more::after {
   display: block;
   content: "";
@@ -373,6 +418,7 @@ img {
   height: 16px;
   background-image: url("./../img/icons/arrow_right.svg");
 }
+
 .article-img img {
   display: block;
   max-width: 100%;
@@ -383,14 +429,17 @@ img {
 .footer {
   padding-bottom: 120px;
 }
+
 .footer-row {
   display: flex;
   justify-content: space-between;
 }
+
 .footer-copyright {
   display: flex;
   flex-direction: column;
 }
+
 .footer-copyright-desc {
   max-width: 300px;
   font-style: normal;
@@ -398,6 +447,7 @@ img {
   font-size: 18px;
   line-height: 1.78;
 }
+
 .footer-copyright-terms {
   margin-top: auto;
   font-weight: 500;
@@ -405,12 +455,15 @@ img {
   line-height: 1.78;
   opacity: 0.5;
 }
+
 .footer-nav-wrapper {
   display: flex;
 }
+
 .footer-nav + .footer-nav {
   margin-left: 212px;
 }
+
 .footer-nav {
   max-width: 200px;
   font-style: normal;
@@ -418,6 +471,7 @@ img {
   font-size: 24px;
   line-height: 1.78;
 }
+
 .footer-nav-title {
   margin-bottom: 24px;
   font-style: normal;
@@ -426,25 +480,30 @@ img {
   line-height: 1.33;
   color: #fbd784;
 }
+
 .footer-nav ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 }
+
 .footer-nav li {
   padding: 0;
   margin: 0;
   margin-bottom: 11px;
 }
+
 .footer-nav li:last-child {
   margin-bottom: 0;
 }
+
 .footer-nav a {
   position: relative;
   text-decoration: none;
   color: #ffffff;
   padding-bottom: 5px;
 }
+
 .footer-nav a::after {
   position: absolute;
   left: 0;
@@ -457,6 +516,7 @@ img {
   opacity: 0;
   transition: all 0.2s ease-in;
 }
+
 .footer-nav a:hover::after {
   bottom: 0px;
   opacity: 1;
